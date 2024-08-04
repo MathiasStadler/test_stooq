@@ -9,7 +9,7 @@ filepath.parent.mkdir(parents=True, exist_ok=True)
 
 dfr = pdr.stooq.StooqDailyReader(
 symbols=[ 'TREX.US'],
-start='1/1/24',
+start='1/1/14',
 end='3/8/24'
 )
 
