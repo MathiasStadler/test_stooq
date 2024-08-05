@@ -6,5 +6,5 @@ pip install --upgrade pip
 pip install --upgrade setuptools wheel
 pip install pandas_datareader
 
-cd python
-python3 test_stooq_1.py
+# cd python
+# python3 test_stooq_1.py
