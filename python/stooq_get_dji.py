@@ -7,7 +7,7 @@
 from pathlib import Path  
 import pandas_datareader.data as web
 
-filepath = Path('output/out.csv')  
+filepath = Path('output/dji.csv')  
 
 filepath.parent.mkdir(parents=True, exist_ok=True)  
 

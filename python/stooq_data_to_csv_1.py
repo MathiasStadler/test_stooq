@@ -1,7 +1,7 @@
 import pandas_datareader as pdr
 
 from pathlib import Path  
-import pandas_datareader.data as web
+# import pandas_datareader.data as web
 
 filepath = Path('output/trex.csv')  
 
@@ -10,7 +10,7 @@ filepath.parent.mkdir(parents=True, exist_ok=True)
 dfr = pdr.stooq.StooqDailyReader(
 symbols=[ 'TREX.US'],
 start='1/1/1990',
-end='3/8/24'
+end='31/12/24'
 )
 
 # FROM HERE
