@@ -1,4 +1,4 @@
-import pandas_datareader as pdr
+# import pandas_datareader as pdr
 dfr = pdr.stooq.StooqDailyReader(
 symbols=[ 'META.US', 'MSFT.US', 'GOOG.US'],
 start='1/1/24',
